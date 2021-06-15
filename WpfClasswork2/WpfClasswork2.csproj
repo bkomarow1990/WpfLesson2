@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1200px-Windows_Settings_app_icon.png" />
+    <None Remove="143229-200.png" />
+    <None Remove="69-692468_setting-clipart-logo-png-setting-icon-in-android.png" />
+    <None Remove="man-with-envelope.png" />
+    <None Remove="pngtree-vector-notification-icon-png-image_855007.jpg" />
+    <None Remove="pngtree-vector-settings-icon-png-image_854999.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1200px-Windows_Settings_app_icon.png" />
+    <Resource Include="143229-200.png" />
+    <Resource Include="69-692468_setting-clipart-logo-png-setting-icon-in-android.png" />
+    <Resource Include="man-with-envelope.png" />
+    <Resource Include="pngtree-vector-notification-icon-png-image_855007.jpg" />
+    <Resource Include="pngtree-vector-settings-icon-png-image_854999.jpg" />
+  </ItemGroup>
+
+</Project>
